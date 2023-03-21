@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #282828;
+    min-height: 70px;
+}
+.header > a {
+    position: absolute;
+    left: 70px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header > span {
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1023px) {
+    .header > a {
+        left: 20px;
+    }
+
+}

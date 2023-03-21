@@ -1,0 +1,24 @@
+.button{
+    font-size: 18px;
+    height: 20px;
+}
+
+.button > a {
+    background-color: #3B89FF;
+    padding: 17px 50px;
+    border-radius: 3px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.button > a:hover {
+    background: #2564C5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 1023px) {
+    .button{
+        font-size: 14px;
+    }
+}

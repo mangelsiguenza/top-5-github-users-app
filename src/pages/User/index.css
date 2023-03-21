@@ -1,0 +1,50 @@
+.user {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.user > section {
+    margin: 40px 70px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.user > section > img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.user .info {
+    padding-left: 25px;
+}
+
+
+.user .info > h1 {
+    font-size: 36px;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.user .info > span {
+    color: #B1B1B1;
+}
+
+@media only screen and (max-width: 1023px) {
+    .user > section {
+        margin: 30px 20px;
+    }
+
+    .user .info {
+        padding-left: 18px;
+    }
+
+    .user .info > h1 {
+        font-size: 18px;
+    }
+}
